@@ -84,17 +84,15 @@ WSGI_APPLICATION = 'gestion.wsgi.application'
 #    }
 #}
 DATABASES = {
-      'default': {
-          'ENGINE': 'django.db.backends.mysql',
-          'NAME': 'gestiona',
-          'USER': 'gestion',
-          'PASSWORD': 'usuario',
-          'HOST': 'localhost',
-          'PORT': '',
-      }
-  }
-
-
+     'default': {
+         'ENGINE': 'django.db.backends.mysql',
+         'NAME': 'sfbenitez$bdgestiona',
+         'USER': 'sfbenitez',
+         'PASSWORD': 'usuario1234',
+         'HOST': 'sfbenitez.mysql.pythonanywhere-services.com',
+         'PORT': '',
+     }
+ }
 
 
 # Password validation
